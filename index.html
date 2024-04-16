@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+        <script type="text/javascript" async=""
+            src="https://www.googletagmanager.com/gtag/js?id=G-3GQFRNC54B&amp;l=dataLayer&amp;cx=c"></script>
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-200693168-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-200693168-1');
+        </script>
+
+
+
+        <meta charset="utf-8">
+        <meta name="viewport"
+            content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0,minimum-scale=1.0,target-densitydpi=medium-dpi">
+        <meta name="format-detection" content="telephone=no, address=no, email=no">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="올카 All Car">
+        <meta property="og:description" content="렌터카 - 월장기대여, 단기대여">
+        <meta property="og:image" content="http://www.allcar.co.kr/images/logo.jpg">
+        <meta property="og:url" content="http://www.allcar.co.kr">
+
+        <meta http-equiv="imagetoolbar" content="no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>올카 - AllCar 렌트</title>
+
+        <link rel="stylesheet" href="https://allcar.co.kr:443/css/default.css">
+        <link rel="stylesheet" href="/css/jquery.bxslider.css" type="text/css">
+        <link rel="stylesheet" href="/css/common.css?v=3" type="text/css">
+
+        <!--[if lte IE 8]>
+        <script src="https://allcar.co.kr:443/js/html5.js"></script>
+        <![endif]-->
+
+        <script>
+
+            // 자바스크립트에서 사용하는 전역변수 선언
+            var g5_url = "https://allcar.co.kr:443";
+            var g5_bbs_url = "https://allcar.co.kr:443/bbs";
+            var g5_is_member = "";
+            var g5_is_admin = "";
+            var g5_is_mobile = "";
+            var g5_bo_table = "";
+            var g5_sca = "";
+            var g5_editor = "";
+            var g5_cookie_domain = "";
+        </script>
+        <script src="https://allcar.co.kr:443/js/jquery-1.8.3.min.js"></script>
+        <script src="https://allcar.co.kr:443/js/jquery.menu.js"></script>
+        <script src="https://allcar.co.kr:443/js/common.js"></script>
+        <script src="https://allcar.co.kr:443/js/jquery.bxslider.min.js"></script>
+        <script src="https://allcar.co.kr:443/js/jquery-ui.min.js"></script>
+        <script src="https://allcar.co.kr:443/js/wrest.js"></script>
+
+        <script src="https://allcar.co.kr:443/js/swiper_5.css"></script>
+        <script src="https://allcar.co.kr:443/js/swiper.custom_5.js"></script>
+        <script src="https://allcar.co.kr:443/js/swiper.addon.js"></script>
+
+    </head>
+</head>
+
+<body>
+
+    <body>
+
+        <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto;">
+            <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 370px;">
+                <div id="visual" style="width: auto; position: relative;">
+                    <div id="vimage1"
+                        style="float: none; list-style: none; position: absolute; width: 1505px; z-index: 0; display: none;">
+                    </div>
+                    <div id="vimage2"
+                        style="float: none; list-style: none; position: absolute; width: 1505px; z-index: 0; display: none;">
+                    </div>
+                    <div id="vimage3"
+                        style="float: none; list-style: none; position: absolute; width: 1505px; z-index: 50; display: block;">
+                    </div>
+                    <div id="vimage4"
+                        style="float: none; list-style: none; position: absolute; width: 1505px; z-index: 0; display: none;">
+                    </div>
+                    <div id="vimage5"
+                        style="float: none; list-style: none; position: absolute; width: 1505px; z-index: 0; display: none;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="head" class="head">
+            <div class="wrap">
+                <div id="top_wrap">
+                    <div id="top_tel"><img src="/images/top_tel.png"></div>
+                    <div id="logo"><a href="https://allcar.co.kr:443"><img src="/images/logo.png"></a></div>
+                    <div class="top_sns">
+                        <a href="http://pf.kakao.com/_tpKcu" target="_blank"><img src="/images/top_sns1.png"></a><a
+                            href="/index.php#left_btn"><img src="/images/top_sns2.png"></a><a
+                            href="https://t.me/allcarent" target="_blank"><img src="/images/top_sns3.png"></a>
+                    </div>
+                    <div class="cl"></div>
+
+                    <div id="vtext">
+                        <p id="btext">올카의 모든 차량은 전국 어디서나 대여 가능합니다</p>
+                        <div class="time24">24시간 실시간 렌트 상담<p>010 9898 8766</p>
+                        </div>
+                    </div>
+
+                    <fieldset id="car_sch">
+                        <form name="fsearchbox" method="get" action="https://allcar.co.kr:443/bbs/search.php"
+                            onsubmit="return fsearchbox_submit(this);">
+                            <input type="hidden" name="sfl" value="wr_subject">
+                            <input type="hidden" name="sop" value="and">
+                            <label for="sch_stx" class="sound_only">검색어<strong class="sound_only"> 필수</strong></label>
+                            <input type="text" name="stx" id="sch_stx" maxlength="20" placeholder="차량 검색">
+                            <input type="submit" id="sch_submit" value="">
+                        </form>
+                    </fieldset>
+                </div>
+
+                <nav id="gnb">
+                    <ul>
+                        <li class="gnb_res"><a href="/bbs/write.php?bo_table=reserv">예약신청</a></li>
+                        <li><a href="/bbs/board.php?bo_table=short">단기대여</a></li>
+                        <li><a href="/bbs/board.php?bo_table=month">월장기대여</a></li>
+                        <li><a href="/bbs/board.php?bo_table=event">슈퍼카</a></li>
+                        <li><a href="/bbs/board.php?bo_table=vip">VIP 의전</a></li>
+                        <li><a href="/bbs/board.php?bo_table=broadcast">광고·촬영·행사</a></li>
+                        <li><a href="/bbs/content.php?co_id=accident">사고대차</a></li>
+                        <li><a href="/process.htm">대여자격/절차</a></li>
+                        <li><a href="/allcar.htm">회사소개</a></li>
+                    </ul>
+                    <div class="cl"></div>
+                </nav>
+
+            </div>
+        </div>
+
+
+
+        <script>
+            function fsearchbox_submit(f) {
+                if (f.stx.value.length < 2) {
+                    alert("검색어는 두글자 이상 입력하십시오.");
+                    f.stx.select();
+                    f.stx.focus();
+                    return false;
+                }
+
+                // 검색에 많은 부하가 걸리는 경우 이 주석을 제거하세요.
+                var cnt = 0;
+                for (var i = 0; i < f.stx.value.length; i++) {
+                    if (f.stx.value.charAt(i) == ' ')
+                        cnt++;
+                }
+
+                if (cnt > 1) {
+                    alert("빠른 검색을 위하여 검색어에 공백은 한개만 입력할 수 있습니다.");
+                    f.stx.select();
+                    f.stx.focus();
+                    return false;
+                }
+
+                return true;
+            }
+        </script>
+
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <style>
+            .swiper {
+                width: 100%;
+                height: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+            }
+
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 24%;
+                margin-right: 1%;
+            }
+
+            .swiper-slide .car_box {
+                width: 100%;
+                border: 1px solid #d5d5d5;
+                background: #fff;
+                padding: 10px;
+            }
+
+            .swiper-slide .car_box img {
+                width: 100%;
+                height: 112px;
+                border-bottom: 1px solid #d5d5d5;
+            }
+
+            .car_info {
+                text-align: center;
+                font-size: 16px;
+                font-weight: 500;
+                padding: 10px 5px;
+            }
+
+            .car_info .car_price {
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            .car_info .car_price span.price {
+                color: #ff6000;
+                font-weight: 500;
+            }
+
+            @media screen and (max-width:760px) {
+                .swiper-slide .car_box img {
+                    height: 230px;
+                }
+            }
+
+            @media screen and (max-width:700px) {
+                .swiper {
+                    width: 100%;
+                }
+
+                .swiper-slide {
+                    width: 47%;
+                    margin: 0 3% 10px 0 !important;
+                }
+
+                .car_info {
+                    font-size: 14px;
+                }
+
+                .car_info .car_price {
+                    font-size: 12px;
+                }
+
+                .swiper-slide .car_box img {
+                    height: 200px;
+                }
+            }
+
+            @media screen and (max-width:600px) {
+                .swiper-slide .car_box img {
+                    height: 140px;
+                }
+            }
+
+            @media screen and (max-width:420px) {
+                .swiper-slide .car_box img {
+                    height: 110px;
+                }
+            }
+
+            :root {
+                --swiper-theme-color: rgb(153, 153, 153);
+            }
+
+            :root {
+                --swiper-navigation-size: 30px;
+            }
+        </style>
+
+<!-- 여기서부터 스위퍼 -->
+        <div class="wrap main_content">
+
+
+
+
+
+
+            <div id="right_cars">
+                <div class="hit_car">
+                    <div class="hit_title">단기대여</div>
+                    <div class="hit_more"><a href="/bbs/board.php?bo_table=short">더보기</a></div>
+                    <div class="cl" style="margin-bottom:10px;"></div>
+
+                    <div class="swiper short swiper-initialized swiper-horizontal swiper-backface-hidden">
+                        <div class="swiper-wrapper" id="swiper-wrapper-ba8bf16693bc42e5" aria-live="off"
+                            style="transition-duration: 0ms; transform: translate3d(-828px, 0px, 0px); transition-delay: 0ms;">
+
+
+
+
+
+
+
+
+                            <div class="swiper-slide" role="group" aria-label="2 / 8" data-swiper-slide-index="1"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EB%8B%A8%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%EB%B2%A4%EC%B8%A0+S%ED%81%B4%EB%9E%98%EC%8A%A4+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=380000"><img
+                                                src="/data/file/short/2038722236_MyBb3VLv_6d0de04dddce7b3fab474bf554dccf90175a03c8.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">벤츠 S클래스</p>
+                                            <p class="car_price">가솔린<br><span class="price">380,000</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="3 / 8" data-swiper-slide-index="2"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EB%8B%A8%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%ED%8F%AC%EB%A5%B4%EC%89%90+%EC%B9%B4%EC%9D%B4%EC%97%94+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=290000"><img
+                                                src="/data/file/short/2038722236_gPXdZ1Bv_0f7312dd0992b69b74e7900f3d0286cd7a0a1e46.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">포르쉐 카이엔</p>
+                                            <p class="car_price">가솔린<br><span class="price">290,000</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="4 / 8" data-swiper-slide-index="3"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EB%8B%A8%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%EB%9E%8C%EB%B3%B4%EB%A5%B4%EA%B8%B0%EB%8B%88+%EC%9A%B0%EB%A3%A8%EC%8A%A4+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=1200000"><img
+                                                src="/data/file/short/2038722236_PdwSNCpy_a1f1eec7fc2051e107bec34051304646082af1a5.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">람보르기니 우루스</p>
+                                            <p class="car_price">가솔린<br><span class="price">1,200,000</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-prev" role="group" aria-label="5 / 8"
+                                data-swiper-slide-index="4" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EB%8B%A8%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%ED%8F%AC%EB%A5%B4%EC%89%90+%ED%8C%8C%EB%82%98%EB%A9%94%EB%9D%BC+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=450000"><img
+                                                src="/data/file/short/2038722236_C4ndU2G5_e5a58eb1e3add455e8e38ded8026b5b2b716bdd3.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">포르쉐 파나메라</p>
+                                            <p class="car_price">가솔린<br><span class="price">450,000</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-active" role="group" aria-label="6 / 8"
+                                data-swiper-slide-index="5" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EB%8B%A8%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%EB%B2%A4%ED%8B%80%EB%A6%AC+%EB%B2%A4%ED%85%8C%EC%9D%B4%EA%B0%80+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=980000"><img
+                                                src="/data/file/short/2038722236_TqFOQw8L_d1f46497c08778027eb99ed5eb42a6ce11c930bc.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">벤틀리 벤테이가</p>
+                                            <p class="car_price">가솔린<br><span class="price">980,000</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" role="group" aria-label="7 / 8"
+                                data-swiper-slide-index="6" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EB%8B%A8%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%EB%A0%88%EC%9D%B8%EC%A7%80%EB%A1%9C%EB%B2%84+%EB%B3%B4%EA%B7%B8+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=750000"><img
+                                                src="/data/file/short/2038722236_HpUsCVaF_b5da33ce147b61af8c081313556839b124083f22.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">레인지로버 보그</p>
+                                            <p class="car_price">가솔린<br><span class="price">750,000</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="8 / 8" data-swiper-slide-index="7"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EB%8B%A8%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%EB%A1%A4%EC%8A%A4%EB%A1%9C%EC%9D%B4%EC%8A%A4+%EA%B3%A0%EC%8A%A4%ED%8A%B8+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=1500000"><img
+                                                src="/data/file/short/2038722236_pHWelBnk_5f4110696164bf3635dd3700c0e6df5db7f13f57.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">롤스로이스 고스트</p>
+                                            <p class="car_price">가솔린<br><span class="price">1,500,000</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="1 / 8" data-swiper-slide-index="0"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EB%8B%A8%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%ED%8F%AC%EB%A5%B4%EC%89%90+718+%EB%B0%95%EC%8A%A4%ED%84%B0+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=290000"><img
+                                                src="/data/file/short/2038722236_5D9rkU7n_87afc9930c41652ec4be3c669086845e3e9ae7b0.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">포르쉐 718 박스터</p>
+                                            <p class="car_price">가솔린<br><span class="price">290,000</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                            aria-controls="swiper-wrapper-ba8bf16693bc42e5"></div>
+                        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+                            aria-controls="swiper-wrapper-ba8bf16693bc42e5"></div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+
+                    <!-- Initialize Swiper -->
+                    <script>
+                        new Swiper('.short', {
+
+                            slidesPerView: 4, // 동시에 보여줄 슬라이드 갯수
+                            spaceBetween: 43,
+                            slidesPerGroup: 1, // 그룹으로 묶을 수
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
+                            },
+                            loop: true,
+                            breakpoints: {
+                                1100: {
+                                    slidesPerView: 4,
+                                    spaceBetween: 10,
+                                },
+                                990: { //640 이상일 경우
+                                    slidesPerView: 3, //레이아웃 2열
+                                    spaceBetween: 7,
+                                },
+                                560: { //640 이상일 경우
+                                    slidesPerView: 2, //레이아웃 2열
+                                    spaceBetween: 20,
+                                },
+                                280: { //640 이상일 경우
+                                    slidesPerView: 2, //레이아웃 2열
+                                    spaceBetween: 10,
+                                },
+                            },
+                            autoplay: {     //자동슬라이드 (false-비활성화)          
+                                delay: 5000, // 시간 설정          
+                                disableOnInteraction: false, // false-스와이프 후 자동 재생        
+                            },
+                        });
+                    </script>
+
+
+                </div>
+                <div class="hit_car">
+                    <div class="hit_title">월장기대여</div>
+                    <div class="hit_more"><a href="/bbs/board.php?bo_table=month">더보기</a></div>
+                    <div class="cl" style="margin-bottom:10px;"></div>
+                    <div class="swiper month swiper-initialized swiper-horizontal swiper-backface-hidden">
+                        <div class="swiper-wrapper" id="swiper-wrapper-2bf6bdd25e75b334" aria-live="off"
+                            style="transition-duration: 0ms; transform: translate3d(-1242px, 0px, 0px); transition-delay: 0ms;">
+
+
+
+
+
+
+
+
+
+
+                            <div class="swiper-slide" role="group" aria-label="6 / 10" data-swiper-slide-index="5"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EC%9B%94%EC%9E%A5%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%ED%8F%AC%EB%A5%B4%EC%89%90+%ED%8C%8C%EB%82%98%EB%A9%94%EB%9D%BC+LPG&amp;price=4800000"><img
+                                                src="/data/file/month/2038722236_KuOlcp9R_04eea29e4d450309679e5694f27e38b41a62f030.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">포르쉐 파나메라</p>
+                                            <p class="car_price">LPG<br><span class="price">4,800,000</span>/월</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="7 / 10" data-swiper-slide-index="6"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EC%9B%94%EC%9E%A5%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%ED%8F%AC%EB%A5%B4%EC%89%90+718+%EB%B0%95%EC%8A%A4%ED%84%B0+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=3900000"><img
+                                                src="/data/file/month/2038722236_0vi8wyZO_654f5b60bb3aa0e7ef2eb14b568e4c152b181bef.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">포르쉐 718 박스터</p>
+                                            <p class="car_price">가솔린<br><span class="price">3,900,000</span>/월</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="8 / 10" data-swiper-slide-index="7"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EC%9B%94%EC%9E%A5%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%ED%8F%AC%EB%A5%B4%EC%89%90+%ED%83%80%EC%9D%B4%EC%B9%B8+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=6500000"><img
+                                                src="/data/file/month/2038722236_eIWEkKFC_6e1796c859491dd947299487617917d6f3f36948.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">포르쉐 타이칸</p>
+                                            <p class="car_price">가솔린<br><span class="price">6,500,000</span>/월</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="9 / 10" data-swiper-slide-index="8"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EC%9B%94%EC%9E%A5%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%EB%A7%88%EC%84%B8%EB%9D%BC%ED%8B%B0+%EC%BD%B0%ED%8A%B8%EB%A1%9C%ED%8F%AC%EB%A5%B4%ED%85%8C+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=5500000"><img
+                                                src="/data/file/month/2038722236_O7MenzDC_e12b274a0935c75d89daff0e3028bb63ad2aa194.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">마세라티 콰트로포르테</p>
+                                            <p class="car_price">가솔린<br><span class="price">5,500,000</span>/월</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="10 / 10" data-swiper-slide-index="9"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EC%9B%94%EC%9E%A5%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%EC%95%84%EC%9A%B0%EB%94%94+A8L+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=4500000"><img
+                                                src="/data/file/month/2038722236_XMElg3ph_fb1b826598ed7bdcf84349c50cd668f9a54c578a.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">아우디 A8L</p>
+                                            <p class="car_price">가솔린<br><span class="price">4,500,000</span>/월</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-prev" role="group" aria-label="1 / 10"
+                                data-swiper-slide-index="0" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EC%9B%94%EC%9E%A5%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%EB%B2%A4%EC%B8%A0+S%ED%81%B4%EB%9E%98%EC%8A%A4+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=4900000"><img
+                                                src="/data/file/month/2038722236_6OWE8pge_c84b30f34a86353b5e0eb021b2e53664b962ffb9.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">벤츠 S클래스</p>
+                                            <p class="car_price">가솔린<br><span class="price">4,900,000</span>/월</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-active" role="group" aria-label="2 / 10"
+                                data-swiper-slide-index="1" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EC%9B%94%EC%9E%A5%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%EB%B2%A4%ED%8B%80%EB%A6%AC+%ED%94%8C%EB%9D%BC%EC%9E%89%EC%8A%A4%ED%8D%BC+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=11000000"><img
+                                                src="/data/file/month/2038722236_mtXv1ZaF_60b3fcc7649666234e85163f5cc647316972c767.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">벤틀리 플라잉스퍼</p>
+                                            <p class="car_price">가솔린<br><span class="price">11,000,000</span>/월</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 10"
+                                data-swiper-slide-index="2" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EC%9B%94%EC%9E%A5%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%EC%95%84%EC%9A%B0%EB%94%94+R8%28%EC%A0%84%29+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=5500000"><img
+                                                src="/data/file/month/2038722236_Mbe4Uuzn_be08f73ed80acd84a30a63db23b68e9e42526992.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">아우디 R8(전)</p>
+                                            <p class="car_price">가솔린<br><span class="price">5,500,000</span>/월</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="4 / 10" data-swiper-slide-index="3"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EC%9B%94%EC%9E%A5%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%EB%A7%88%EC%84%B8%EB%9D%BC%ED%8B%B0+%EB%A5%B4%EB%B0%98%EB%96%BC+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=3500000"><img
+                                                src="/data/file/month/2038722236_ZlQA57iK_209da3b1f0553923adb34d9766d2aab807c6a99a.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">마세라티 르반떼</p>
+                                            <p class="car_price">가솔린<br><span class="price">3,500,000</span>/월</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="5 / 10" data-swiper-slide-index="4"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%EC%9B%94%EC%9E%A5%EA%B8%B0%EB%8C%80%EC%97%AC&amp;model=%EB%B2%A4%EC%B8%A0+%EC%A7%80%EB%B0%94%EA%B2%90%28G%ED%81%B4%EB%9E%98%EC%8A%A4%29+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=8500000"><img
+                                                src="/data/file/month/2038722236_7Yn9bUcw_3b4231f7e83006c1de5976ccc2724620bb5e2420.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">벤츠 지바겐(G클래스)</p>
+                                            <p class="car_price">가솔린<br><span class="price">8,500,000</span>/월</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                            aria-controls="swiper-wrapper-2bf6bdd25e75b334"></div>
+                        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+                            aria-controls="swiper-wrapper-2bf6bdd25e75b334"></div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+
+                    <!-- Initialize Swiper -->
+                    <script>
+                        new Swiper('.month', {
+
+                            slidesPerView: 4, // 동시에 보여줄 슬라이드 갯수
+                            spaceBetween: 43,
+                            slidesPerGroup: 1, // 그룹으로 묶을 수
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
+                            },
+                            loop: true,
+                            breakpoints: {
+                                1100: {
+                                    slidesPerView: 4,
+                                    spaceBetween: 10,
+                                },
+                                990: { //640 이상일 경우
+                                    slidesPerView: 3, //레이아웃 2열
+                                    spaceBetween: 7,
+                                },
+                                560: { //640 이상일 경우
+                                    slidesPerView: 2, //레이아웃 2열
+                                    spaceBetween: 20,
+                                },
+                                280: { //640 이상일 경우
+                                    slidesPerView: 2, //레이아웃 2열
+                                    spaceBetween: 10,
+                                },
+                            },
+                            autoplay: {     //자동슬라이드 (false-비활성화)          
+                                delay: 5000, // 시간 설정          
+                                disableOnInteraction: false, // false-스와이프 후 자동 재생        
+                            },
+                        });
+                    </script>
+                </div>
+
+                <div class="hit_car">
+                    <div class="hit_title">슈퍼카</div>
+                    <div class="hit_more"><a href="/bbs/board.php?bo_table=event">더보기</a></div>
+                    <div class="cl" style="margin-bottom:10px;"></div>
+                    <div class="swiper event swiper-initialized swiper-horizontal swiper-backface-hidden">
+                        <div class="swiper-wrapper" id="swiper-wrapper-aee1cf35e61478ea" aria-live="off"
+                            style="transition-duration: 0ms; transform: translate3d(-414px, 0px, 0px); transition-delay: 0ms;">
+
+
+
+
+
+
+                            <div class="swiper-slide" role="group" aria-label="2 / 6" data-swiper-slide-index="1"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%ED%96%89%EC%82%AC%EC%B0%A8%EB%9F%89&amp;model=%EB%9E%8C%EB%B3%B4%EB%A5%B4%EA%B8%B0%EB%8B%88+%EC%9A%B0%EB%A3%A8%EC%8A%A4+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=%EB%AC%B8%EC%9D%98"><img
+                                                src="/data/file/event/1981911421_4f9nAsrE_efe02f2ec8a6a0bd53ec0d7e2f83d0304fbbc316.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">람보르기니 우루스</p>
+                                            <p class="car_price">가솔린<br><span class="price">문의</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-prev" role="group" aria-label="3 / 6"
+                                data-swiper-slide-index="2" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%ED%96%89%EC%82%AC%EC%B0%A8%EB%9F%89&amp;model=%EB%A1%A4%EC%8A%A4%EB%A1%9C%EC%9D%B4%EC%8A%A4+%EA%B3%A0%EC%8A%A4%ED%8A%B8+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=%EB%AC%B8%EC%9D%98"><img
+                                                src="/data/file/event/1981911421_ZyCrq9uA_3f84839938490de37d66d9d51e70496e9e05112b.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">롤스로이스 고스트</p>
+                                            <p class="car_price">가솔린<br><span class="price">문의</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-active" role="group" aria-label="4 / 6"
+                                data-swiper-slide-index="3" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%ED%96%89%EC%82%AC%EC%B0%A8%EB%9F%89&amp;model=%EB%B2%A4%ED%8B%80%EB%A6%AC+%EC%BB%A8%ED%8B%B0%EB%84%A8%ED%83%88GT+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=%EB%AC%B8%EC%9D%98"><img
+                                                src="/data/file/event/1981911421_UgIMQvul_40f6b35efc7dc346c46bef66ea165e500ab37041.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">벤틀리 컨티넨탈GT</p>
+                                            <p class="car_price">가솔린<br><span class="price">문의</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" role="group" aria-label="5 / 6"
+                                data-swiper-slide-index="4" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%ED%96%89%EC%82%AC%EC%B0%A8%EB%9F%89&amp;model=%ED%8F%AC%EB%A5%B4%EC%89%90+992+%EC%B9%B4%EB%B8%8C%EB%A6%AC%EC%98%AC%EB%A0%88+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=%EB%AC%B8%EC%9D%98"><img
+                                                src="/data/file/event/1981911421_2ah1bGxn_00a4fcd516e3a6e8d088bd4e1eabcad0e2f5cefb.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">포르쉐 992 카브리올레</p>
+                                            <p class="car_price">가솔린<br><span class="price">문의</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="6 / 6" data-swiper-slide-index="5"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%ED%96%89%EC%82%AC%EC%B0%A8%EB%9F%89&amp;model=%EB%A7%A5%EB%9D%BC%EB%A0%8C+570S+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=%EB%AC%B8%EC%9D%98"><img
+                                                src="/data/file/event/1981911421_7uqPdxmU_993152996d699e289747ebcfdea8a17149192d33.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">맥라렌 570S</p>
+                                            <p class="car_price">가솔린<br><span class="price">문의</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="1 / 6" data-swiper-slide-index="0"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=%ED%96%89%EC%82%AC%EC%B0%A8%EB%9F%89&amp;model=%EB%9E%8C%EB%B3%B4%EB%A5%B4%EA%B8%B0%EB%8B%88+%EC%9A%B0%EB%9D%BC%EC%B9%B8+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=1200000"><img
+                                                src="/data/file/event/1981911421_5rH6LWwv_851def714d63d3459adbb77d12c930414f995666.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">람보르기니 우라칸</p>
+                                            <p class="car_price">가솔린<br><span class="price">1,200,000</span>/일</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                            aria-controls="swiper-wrapper-aee1cf35e61478ea"></div>
+                        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+                            aria-controls="swiper-wrapper-aee1cf35e61478ea"></div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+
+                    <!-- Initialize Swiper -->
+                    <script>
+                        new Swiper('.event', {
+
+                            slidesPerView: 4, // 동시에 보여줄 슬라이드 갯수
+                            spaceBetween: 43,
+                            slidesPerGroup: 1, // 그룹으로 묶을 수
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
+                            },
+                            loop: true,
+                            breakpoints: {
+                                1100: {
+                                    slidesPerView: 4,
+                                    spaceBetween: 10,
+                                },
+                                990: { //640 이상일 경우
+                                    slidesPerView: 3, //레이아웃 2열
+                                    spaceBetween: 7,
+                                },
+                                560: { //640 이상일 경우
+                                    slidesPerView: 2, //레이아웃 2열
+                                    spaceBetween: 20,
+                                },
+                                280: { //640 이상일 경우
+                                    slidesPerView: 2, //레이아웃 2열
+                                    spaceBetween: 10,
+                                },
+                            },
+                            autoplay: {     //자동슬라이드 (false-비활성화)          
+                                delay: 5000, // 시간 설정          
+                                disableOnInteraction: false, // false-스와이프 후 자동 재생        
+                            },
+                        });
+                    </script>
+                </div>
+
+                <div class="hit_car">
+                    <div class="hit_title">VIP 의전</div>
+                    <div class="hit_more"><a href="/bbs/board.php?bo_table=vip">더보기</a></div>
+                    <div class="cl" style="margin-bottom:10px;"></div>
+                    <div class="swiper vip swiper-initialized swiper-horizontal">
+                        <div class="swiper-wrapper" id="swiper-wrapper-9926e6ed2187f4ee" aria-live="off"
+                            style="transition-duration: 0ms; transform: translate3d(-1449px, 0px, 0px); transition-delay: 0ms;">
+
+
+
+
+
+
+
+
+
+
+
+                            <div class="swiper-slide" role="group" aria-label="4 / 11" data-swiper-slide-index="3"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=VIP+%EC%9D%98%EC%A0%84&amp;model=BMW+7%EC%8B%9C%EB%A6%AC%EC%A6%88+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=400000"><img
+                                                src="/data/file/vip/1981911421_LQKNVurM_def70c39b6d77843bd76460c2caba9d2f9a1578c.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">BMW 7시리즈</p>
+                                            <p class="car_price">가솔린<br><span class="price">400,000</span>/10시간</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="5 / 11" data-swiper-slide-index="4"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=VIP+%EC%9D%98%EC%A0%84&amp;model=%EC%89%90%EB%B3%B4%EB%A0%88+%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%AC%EB%B2%A4+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=%EB%AC%B8%EC%9D%98"><img
+                                                src="/data/file/vip/1981911421_F8Yi9cnd_3656c31ea5def2b7be5daa49de347cc7b0c8aa8d.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">쉐보레 익스플로러벤</p>
+                                            <p class="car_price">가솔린<br><span class="price">문의</span>/10시간</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="6 / 11" data-swiper-slide-index="5"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=VIP+%EC%9D%98%EC%A0%84&amp;model=%EB%A1%A4%EC%8A%A4%EB%A1%9C%EC%9D%B4%EC%8A%A4+%EA%B3%A0%EC%8A%A4%ED%8A%B8+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=%EB%AC%B8%EC%9D%98"><img
+                                                src="/data/file/vip/1981911421_lIguQJ6V_5393dc7f09b5b04ad1e87cc0006e3d5ee9240673.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">롤스로이스 고스트</p>
+                                            <p class="car_price">가솔린<br><span class="price">문의</span>/10시간</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="7 / 11" data-swiper-slide-index="6"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=VIP+%EC%9D%98%EC%A0%84&amp;model=%EB%B2%A4%EC%B8%A0+S%ED%81%B4%EB%9E%98%EC%8A%A4+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=490000"><img
+                                                src="/data/file/vip/1981911421_OH3SD6lu_ea27c1000f070e0ce319e2c575784017b9e6c6f4.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">벤츠 S클래스</p>
+                                            <p class="car_price">가솔린<br><span class="price">490,000</span>/10시간</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="8 / 11" data-swiper-slide-index="7"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=VIP+%EC%9D%98%EC%A0%84&amp;model=%EC%95%84%EC%9A%B0%EB%94%94+A8L+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=%EB%AC%B8%EC%9D%98"><img
+                                                src="/data/file/vip/1981911421_HxraMmVY_97fb263c2b284a935d5fc1cb113c785ed1a6417e.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">아우디 A8L</p>
+                                            <p class="car_price">가솔린<br><span class="price">문의</span>/10시간</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="9 / 11" data-swiper-slide-index="8"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=VIP+%EC%9D%98%EC%A0%84&amp;model=%EB%B2%A4%ED%8B%80%EB%A6%AC+%ED%94%8C%EB%9D%BC%EC%9E%89%EC%8A%A4%ED%8D%BC+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=%EB%AC%B8%EC%9D%98"><img
+                                                src="/data/file/vip/1981911421_nO0hUdW4_fa63d837d72d05c4e275ce981df34cf100fce267.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">벤틀리 플라잉스퍼</p>
+                                            <p class="car_price">가솔린<br><span class="price">문의</span>/10시간</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-prev" role="group" aria-label="10 / 11"
+                                data-swiper-slide-index="9" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=VIP+%EC%9D%98%EC%A0%84&amp;model=%EB%B2%A4%EC%B8%A0+S%ED%81%B4%EB%9E%98%EC%8A%A4+%EB%A7%88%EC%9D%B4%EB%B0%94%ED%9D%90+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=%EB%AC%B8%EC%9D%98"><img
+                                                src="/data/file/vip/1981911421_iLw0Q7aN_6a2b2b2c5db64abc64748d909bb2351d4423d5ec.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">벤츠 S클래스 마이바흐</p>
+                                            <p class="car_price">가솔린<br><span class="price">문의</span>/10시간</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-active" role="group" aria-label="11 / 11"
+                                data-swiper-slide-index="10" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=VIP+%EC%9D%98%EC%A0%84&amp;model=%EC%BA%90%EB%94%9C%EB%9D%BD+%EC%97%90%EC%8A%A4%EC%BB%AC%EB%A0%88%EC%9D%B4%EB%93%9C+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=%EB%AC%B8%EC%9D%98"><img
+                                                src="/data/file/vip/1981911421_4HAYKQdq_37c016303897ee0e49550c77e4d5d6ebe8f5dd87.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">캐딜락 에스컬레이드</p>
+                                            <p class="car_price">가솔린<br><span class="price">문의</span>/10시간</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" role="group" aria-label="1 / 11"
+                                data-swiper-slide-index="0" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=VIP+%EC%9D%98%EC%A0%84&amp;model=%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4+G90+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=380000"><img
+                                                src="/data/file/vip/1981911421_r4HQEzcn_c424007e2cf6abf6b19456a76675cb726ec05ff4.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">제네시스 G90</p>
+                                            <p class="car_price">가솔린<br><span class="price">380,000</span>/10시간</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="2 / 11" data-swiper-slide-index="1"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=VIP+%EC%9D%98%EC%A0%84&amp;model=%EB%A5%B4%EB%85%B8+%EB%A7%88%EC%8A%A4%ED%84%B0+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=%EB%AC%B8%EC%9D%98"><img
+                                                src="/data/file/vip/1981911421_FPpIjv8E_7b6252a408fc33f9db3fb830457bfe31249cd69d.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">르노 마스터</p>
+                                            <p class="car_price">가솔린<br><span class="price">문의</span>/10시간</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="3 / 11" data-swiper-slide-index="2"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><a
+                                            href="/bbs/write.php?bo_table=reserv&amp;cate=VIP+%EC%9D%98%EC%A0%84&amp;model=%EB%B2%A4%EC%B8%A0+%EC%8A%A4%ED%94%84%EB%A6%B0%ED%84%B0+%EA%B0%80%EC%86%94%EB%A6%B0&amp;price=450000"><img
+                                                src="/data/file/vip/1981911421_AfmXMFxL_1daf72b51dcb53eb7801e142cb030e5c5233b6cd.jpg"></a>
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">벤츠 스프린터</p>
+                                            <p class="car_price">가솔린<br><span class="price">450,000</span>/10시간</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                            aria-controls="swiper-wrapper-9926e6ed2187f4ee"></div>
+                        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+                            aria-controls="swiper-wrapper-9926e6ed2187f4ee"></div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+
+                    <!-- Initialize Swiper -->
+                    <script>
+                        new Swiper('.vip', {
+
+                            slidesPerView: 4, // 동시에 보여줄 슬라이드 갯수
+                            spaceBetween: 43,
+                            slidesPerGroup: 1, // 그룹으로 묶을 수
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
+                            },
+                            loop: true,
+                            breakpoints: {
+                                1100: {
+                                    slidesPerView: 4,
+                                    spaceBetween: 10,
+                                },
+                                990: { //640 이상일 경우
+                                    slidesPerView: 3, //레이아웃 2열
+                                    spaceBetween: 7,
+                                },
+                                560: { //640 이상일 경우
+                                    slidesPerView: 2, //레이아웃 2열
+                                    spaceBetween: 20,
+                                },
+                                280: { //640 이상일 경우
+                                    slidesPerView: 2, //레이아웃 2열
+                                    spaceBetween: 10,
+                                },
+                            },
+                            autoplay: {     //자동슬라이드 (false-비활성화)          
+                                delay: 5000, // 시간 설정          
+                                disableOnInteraction: false, // false-스와이프 후 자동 재생        
+                            },
+                        });
+                    </script>
+                </div>
+
+
+
+                <div class="hit_car">
+                    <div class="hit_title">광고·촬영·행사</div>
+                    <div class="hit_more"><a href="/bbs/board.php?bo_table=broadcast">더보기</a></div>
+                    <div class="cl" style="margin-bottom:10px;"></div>
+                    <div class="swiper wedding swiper-initialized swiper-horizontal swiper-backface-hidden">
+                        <div class="swiper-wrapper" id="swiper-wrapper-2549f75cd1cf6d1c" aria-live="off"
+                            style="transition-duration: 0ms; transform: translate3d(-1035px, 0px, 0px); transition-delay: 0ms;">
+
+
+
+
+
+
+
+
+
+                            <div class="swiper-slide" role="group" aria-label="7 / 9" data-swiper-slide-index="6"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><img
+                                            src="/data/file/broadcast/2038722236_2E7H0UQc_bd1cbd50905531d5376c040315443ca56345987d.png">
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">삼성화재 자동차보험 광고</p>
+                                            <!--p class="car_price"><br /><span class='price'></span>/일</p-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="8 / 9" data-swiper-slide-index="7"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><img
+                                            src="/data/file/broadcast/2038722236_MyR0BhqZ_feed2792acfeb5555fc15ee904190fca6e098029.jpg">
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">동부화재 광고 촬영</p>
+                                            <!--p class="car_price"><br /><span class='price'></span>/일</p-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="9 / 9" data-swiper-slide-index="8"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><img
+                                            src="/data/file/broadcast/2038722236_W20eGu1w_8320371acb792419fdc43cae01ce4b32a8ac4e7e.jpg">
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">딘딘 뮤직비디오 촬영</p>
+                                            <!--p class="car_price"><br /><span class='price'></span>/일</p-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="1 / 9" data-swiper-slide-index="0"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><img
+                                            src="/data/file/broadcast/2038722236_M9wJmEYI_619df3d1eb0566af8bd9f36c0b28a5851e254828.jpg">
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">재벌집막내아들 드라마 촬영</p>
+                                            <!--p class="car_price"><br /><span class='price'></span>/일</p-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-prev" role="group" aria-label="2 / 9"
+                                data-swiper-slide-index="1" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><img
+                                            src="/data/file/broadcast/2039367194_tzOKIgry_d7745d13109b4b790684457e79e4f208f44c5cfd.png">
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">KT 5G 광고</p>
+                                            <!--p class="car_price"><br /><span class='price'></span>/일</p-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-active" role="group" aria-label="3 / 9"
+                                data-swiper-slide-index="2" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><img
+                                            src="/data/file/broadcast/2038722236_Z2PcT65v_7d8b8218306bfb206edfd1f95612ecd6c2dceba3.jpg">
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">커피 MAXIM 광고</p>
+                                            <!--p class="car_price"><br /><span class='price'></span>/일</p-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" role="group" aria-label="4 / 9"
+                                data-swiper-slide-index="3" style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><img
+                                            src="/data/file/broadcast/2039367194_W0FtIMXA_72a2f3d9c8b32ec575035c1b1a99565e840e1a7d.png">
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">네비게이션 아이나비 광고</p>
+                                            <!--p class="car_price"><br /><span class='price'></span>/일</p-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="5 / 9" data-swiper-slide-index="4"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><img
+                                            src="/data/file/broadcast/2038722236_qnplSUk6_4b0821ead6a956d6a17c989b7bf5f353e029b143.jpg">
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">록시땅 광고촬영</p>
+                                            <!--p class="car_price"><br /><span class='price'></span>/일</p-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="6 / 9" data-swiper-slide-index="5"
+                                style="width: 197px; margin-right: 10px;">
+                                <div class="car_box">
+                                    <div class="car_img"><img
+                                            src="/data/file/broadcast/2039367194_pXWaV10N_2a18cdeca712038dd35c27d85e9c83accf912663.png">
+                                    </div>
+                                    <div class="car_info">
+                                        <a href="">
+                                            <p class="car_name">액소 call me baby MV</p>
+                                            <!--p class="car_price"><br /><span class='price'></span>/일</p-->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
+                            aria-controls="swiper-wrapper-2549f75cd1cf6d1c"></div>
+                        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"
+                            aria-controls="swiper-wrapper-2549f75cd1cf6d1c"></div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+
+                    <!-- Initialize Swiper -->
+                    <script>
+                        new Swiper('.wedding', {
+
+                            slidesPerView: 4, // 동시에 보여줄 슬라이드 갯수
+                            spaceBetween: 43,
+                            slidesPerGroup: 1, // 그룹으로 묶을 수
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
+                            },
+                            loop: true,
+                            breakpoints: {
+                                1100: {
+                                    slidesPerView: 4,
+                                    spaceBetween: 10,
+                                },
+                                990: { //640 이상일 경우
+                                    slidesPerView: 3, //레이아웃 2열
+                                    spaceBetween: 7,
+                                },
+                                560: { //640 이상일 경우
+                                    slidesPerView: 2, //레이아웃 2열
+                                    spaceBetween: 20,
+                                },
+                                280: { //640 이상일 경우
+                                    slidesPerView: 2, //레이아웃 2열
+                                    spaceBetween: 10,
+                                },
+                            },
+                            autoplay: {     //자동슬라이드 (false-비활성화)          
+                                delay: 5000, // 시간 설정          
+                                disableOnInteraction: false, // false-스와이프 후 자동 재생        
+                            },
+                        });
+                    </script>
+                </div>
+
+                <section class="accident" id="accident">
+                    <div class="hit_more"><a href="/bbs/content.php?co_id=accident">더보기</a></div>
+                    <p class="sec_info">
+                    </p>
+                    <h3
+                        style="box-sizing: border-box; margin: 0px 0px 54px; padding: 0px; border: 0px; font-size: 35px; font-family: Pretendard, &quot;Noto Sans KR&quot;, sans-serif; color: rgb(37, 31, 31); text-align: center;">
+                        사고대차</h3>
+                    <p class="sec_info"
+                        style="box-sizing: border-box; margin-top: -36px; margin-bottom: 48px; word-break: break-all; font-size: 16px; color: rgb(65, 65, 65); text-align: center; font-family: Pretendard, &quot;Noto Sans KR&quot;, sans-serif;">
+                        상대방 과실에 의한 사고로 파손되었을 경우,<br style="box-sizing: border-box;">파손된 차량이 수리를 받는 기간동안 가해차량의 보험회사로부터<br
+                            style="box-sizing: border-box;">대여료를 보증 받아 렌트카를 이용하는 제도입니다.&nbsp;</p>
+                    <div class="bann_box"
+                        style="text-align: center; box-sizing: border-box; position: relative; height: 0px; padding-bottom: 432px; font-family: Pretendard, &quot;Noto Sans KR&quot;, sans-serif;"
+                        align="center"><img
+                            src="https://allcar.co.kr:443/data/editor/2402/607e5afb65ca654ee3145b62dd96ad58_1709020670_1603.jpg"
+                            width="100%" title="607e5afb65ca654ee3145b62dd96ad58_1709020670_1603.jpg"><br
+                            style="clear:both;"><br style="clear:both;"><br></div>
+                    <p></p>
+                </section>
+            </div>
+
+
+
+
+
+            <div id="left_res">
+                <p id="mres_tit">예약 문의</p>
+                <form name="inq_write" method="post" onsubmit="return inquiry_submit(this);" target="inq_iframe"
+                    enctype="multipart/form-data">
+                    <input type="hidden" name="bo_table" value="reserv">
+                    <table class="main_res">
+                        <tbody>
+                            <tr>
+                                <td class="thead">대여형태</td>
+                                <td class="tform">
+                                    <select name="ca_name">
+                                        <option value="월장기대여">월장기대여</option>
+                                        <option value="단기대여">단기대여</option>
+                                        <option value="VIP 의전">VIP 의전</option>
+                                        <option value="행사차량">행사차량</option>
+                                        <option value="웨딩차량">웨딩차량</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="thead">모델명</td>
+                                <td class="tform">
+                                    <input type="text" name="wr_subject" required="" class="required w99"
+                                        placeholder="ex) K5, 그랜져, A6, 가야르도">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="thead">자차보험</td>
+                                <td class="tform">
+                                    <input type="radio" name="wr_16" value="가입" checked=""> 가입 &nbsp;&nbsp; <input
+                                        type="radio" name="wr_16" value="미가입"> 미가입
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="thead">픽업위치</td>
+                                <td class="tform">
+                                    <input type="text" name="wr_7" class="w99" placeholder="주소, 지하철역 등 입력">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="mid_line"></div>
+
+                    <table class="main_res">
+                        <tbody>
+                            <tr>
+                                <td class="thead">대여일시</td>
+                                <td class="tform">
+                                    <input type="text" name="wr_1" id="cal1"
+                                        style="margin-bottom: 8px; width: 90px; margin-right: 4px;"
+                                        class="hasDatepicker"><img class="ui-datepicker-trigger"
+                                        src="/images/icon_mcal.gif" alt="달력" title="달력"><br>
+                                    <select name="wr_2">
+                                        <option value="00">00</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                    </select> 시 &nbsp; &nbsp;
+                                    <select name="wr_3">
+                                        <option value="00">00</option>
+                                        <option value="10">10</option>
+                                        <option value="20">20</option>
+                                        <option value="30">30</option>
+                                        <option value="40">40</option>
+                                        <option value="50">50</option>
+                                    </select> 분
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="thead">반납일시</td>
+                                <td class="tform">
+                                    <input type="text" name="wr_4" id="cal2"
+                                        style="margin-bottom: 8px; width: 90px; margin-right: 4px;"
+                                        class="hasDatepicker"><img class="ui-datepicker-trigger"
+                                        src="/images/icon_mcal.gif" alt="달력" title="달력"><br>
+                                    <select name="wr_5">
+                                        <option value="00">00</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                    </select> 시 &nbsp; &nbsp;
+                                    <select name="wr_6">
+                                        <option value="00">00</option>
+                                        <option value="10">10</option>
+                                        <option value="20">20</option>
+                                        <option value="30">30</option>
+                                        <option value="40">40</option>
+                                        <option value="50">50</option>
+                                    </select> 분
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="mid_line"></div>
+
+                    <table class="main_res">
+                        <tbody>
+                            <tr>
+                                <td class="thead">고객명</td>
+                                <td class="tform">
+                                    <input type="text" name="wr_name" id="wr_name" required=""
+                                        class="frm_input required w99" maxlength="20">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="thead">휴대폰</td>
+                                <td class="tform">
+                                    <input type="text" name="wr_8" class="frm_input frm_price required w99" required="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="thead">이메일</td>
+                                <td class="tform">
+                                    <input type="text" name="wr_email" id="wr_email" class="frm_input email w99"
+                                        maxlength="100">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="thead">운전자연령</td>
+                                <td class="tform">
+                                    <select name="wr_9">
+                                        <option value="만 21세 이상">만 21세 이상</option>
+                                        <option value="만 26세 이상">만 26세 이상</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <div class="mid_line"></div>
+
+                    <div id="main_info_box">
+                        <textarea id="main_info_agree">●  개인정보의 수집 및 이용 목적
+            -  서비스 이용에 따른 본인식별 및 실명확인
+            -  고지사항 전달, 불만처리 의사소통 경로 확보
+            -  신규 서비스 등 최신정보 안내 및 개인맞춤서비스 제공을 위한 자료
+            -  기타 원활한 양질의 서비스 제공 등
+        
+        ●  수집하는 개인정보의 항목
+            -  성명, 이메일주소, 전화번호, 그외 선택항목
+        
+        ●  개인정보의 보유 및 이용기간
+            -  원칙적으로 개인정보의 수집 또는 제공받은 목적 달성 시 지체 없이 파기합니다.
+            -  전자상거래에서의 소비자보호에 관한 법률 등 타법률에 의해 보존할 필요가 있는 경우에는 일정기간 보존합니다.
+            </textarea>
+                        <p id="main_info_check"><input type="checkbox" class="chk_agree"> 개인정보 수집 및 이용에 동의합니다.</p>
+                    </div>
+
+                    <p class="tcen">
+                        <input type="submit" class="res_submit" value="예약문의">
+                    </p>
+
+                </form>
+                <div id="left_btn">
+                    <p id="mtel"><a href="tel:1577-6056"><img src="/images/mtel.gif"></a></p>
+                    <p class="msns sns1"><a href="http://pf.kakao.com/_tpKcu" target="_blank"><img
+                                src="/images/mkakao2.gif"></a></p>
+                    <p class="msns sns3"><a href="https://t.me/allcarent" target="_blank"><img
+                                src="/images/mtelegram.gif"></a></p>
+                    <p class="msns sns2"><a href="#"><img src="/images/mwechat3.gif"></a></p>
+                </div>
+
+            </div>
+
+
+            <div class="cl"></div>
+
+        </div>
+
+
+        <iframe name="inq_iframe" style="display:none"></iframe>
+        <!--link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" /-->
+        <style type="text/css">
+            .ui-datepicker select.ui-datepicker-month,
+            .ui-datepicker select.ui-datepicker-year {
+                width: 70px;
+            }
+
+            .ui-datepicker-trigger {
+                margin: 0 0 -5px 2px;
+                z-index: 1000;
+            }
+        </style>
+        <script type="text/javascript">
+
+            jQuery(function ($) {
+                $.datepicker.regional['ko'] = {
+                    closeText: '닫기',
+                    prevText: '이전달',
+                    nextText: '다음달',
+                    currentText: '오늘',
+                    monthNames: ['1월(JAN)', '2월(FEB)', '3월(MAR)', '4월(APR)', '5월(MAY)', '6월(JUN)',
+                        '7월(JUL)', '8월(AUG)', '9월(SEP)', '10월(OCT)', '11월(NOV)', '12월(DEC)'],
+                    monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월',
+                        '7월', '8월', '9월', '10월', '11월', '12월'],
+                    dayNames: ['일', '월', '화', '수', '목', '금', '토'],
+                    dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
+                    dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
+                    weekHeader: 'Wk',
+                    dateFormat: 'yy-mm-dd',
+                    firstDay: 0,
+                    isRTL: false,
+                    showMonthAfterYear: true,
+                    yearSuffix: ''
+                };
+                $.datepicker.setDefaults($.datepicker.regional['ko']);
+
+                $('#cal1, #cal2').datepicker({
+                    showOn: 'button',
+                    buttonImage: '/images/icon_mcal.gif',
+                    buttonImageOnly: true,
+                    buttonText: "달력",
+                    changeMonth: true,
+                    changeYear: true,
+                    yearRange: 'c-99:c+99'
+                });
+                $('#cal1, #cal2').css('margin-right', '4px');
+                $('.ui-datepicker').css({ 'font-size': '20px' });
+
+            });
+
+
+            function inquiry_submit(f) {
+
+                if (!$('.chk_agree').is(":checked")) {
+                    alert("개인정보취급방침에 동의하셔야 신청을 하실 수 있습니다.");
+                    return false;
+                }
+
+                f.action = "/bbs/write_update.php";
+                return true;
+
+            }
+
+
+        </script>
+
+
+
+        <footer id="footer">
+            <div class="wrap">
+                <div id="m_tbtn">
+                    <a href="https://allcar.co.kr:443/bbs/login.php?url=%2F" class="btn01">로그인</a>
+                </div>
+                <ul id="tmenu">
+                    <li><a href="/bbs/write.php?bo_table=reserv">예약신청</a></li>
+                    <li><a href="/bbs/board.php?bo_table=short">단기대여</a></li>
+                    <li><a href="/bbs/board.php?bo_table=month">월장기대여</a></li>
+                    <li><a href="/bbs/board.php?bo_table=event">슈퍼카</a></li>
+                    <li><a href="/bbs/board.php?bo_table=vip">VIP 의전</a></li>
+                    <li><a href="/bbs/board.php?bo_table=broadcast">광고·촬영·행사</a></li>
+                    <li><a href="https://allcar.co.kr:443/bbs/login.php?url=%2F">관리자</a></li>
+                </ul>
+                <div class="cl"></div>
+                <p id="adress">
+                    올카 (All Car) &nbsp; &nbsp; &nbsp; 대표 : 이정우 &nbsp; &nbsp; &nbsp; 고객센터 : 1577-6056 &nbsp; &nbsp;
+                    &nbsp; 연락처 : 010-9898-8766<br>E-mail : dlejddn@naver.com &nbsp; &nbsp; &nbsp; FAX : 031-792-8766
+                    &nbsp; &nbsp; &nbsp; 통신판매업신고번호 : 제 2016-서울광진-0965호<br>
+                    서울시 강남구 도곡동 타워팰리스 1차 d동 1206<br>
+                    COPYRIGHT ⓒ 2016 ALL CAR ALL RIGHT RESERVED
+                </p>
+                <p id="m_adress">
+                    올카 (All Car) &nbsp; &nbsp; &nbsp; 대표 : 이정우 &nbsp; &nbsp; &nbsp; 고객센터 : 1577-6056<br>
+                    연락처 : 010-9898-8766 &nbsp; &nbsp; &nbsp; FAX : 031-792-8766<br>
+                    E-mail : dlejddn@naver.com<br>
+                    통신판매업신고번호 : 제 2016-서울광진-0965호<br>
+                    서울시 강남구 도곡동 타워팰리스 1차 d동 1206<br>
+                    COPYRIGHT ⓒ 2016 ALL CAR ALL RIGHT RESERVED
+                </p>
+            </div>
+        </footer>
+
+
+
+        <script type="text/javascript">
+            $(function () {
+
+                slider = $('#visual').bxSlider({
+                    auto: true,
+                    mode: 'fade',
+                    pager: false,
+                    speed: 500,
+                    controls: false
+                });
+
+                // 모바일 GNB
+                mgnb_size();
+
+            });
+
+
+            $('#btn_mmenu').click(function () {
+                if ($('#mgnb_back').is(':visible')) {
+                    mgnb_hide();
+                } else {
+                    $('#mgnb_back').show();
+                    $('#mobile_menu').stop().animate({ right: 0 });
+                }
+            });
+
+            $('#mgnb_back').click(function () {
+                mgnb_hide();
+            });
+
+            function mgnb_hide() {
+                $('#mobile_menu').stop().animate({ right: -260 }, function () {
+                    $('#mgnb_back').hide();
+                });
+            }
+
+            function mgnb_size() {
+                var d_height = $(document).height();
+                $('#mobile_menu, #mgnb_back').css('height', d_height);
+            }
+
+            $(window).resize(function () {
+                mgnb_size();
+            });
+
+            $(window).scroll(function () {
+                w_top = $(window).scrollTop();
+                if (w_top > 200) {
+                    $('#head').removeClass('head').addClass('head_fixed');
+                    $('#gnb').css('margin-top', '20px');
+                    $('#top_wrap').hide();
+                } else {
+                    $('#head').removeClass('head_fixed').addClass('head');
+                    $('#gnb').css('margin-top', '24px');
+                    $('#top_wrap').show();
+                }
+
+            });
+
+        </script>
+
+
+
+
+        <!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+        <!--[if lte IE 7]>
+        <script>
+        $(function() {
+            var $sv_use = $(".sv_use");
+            var count = $sv_use.length;
+        
+            $sv_use.each(function() {
+                $(this).css("z-index", count);
+                $(this).css("position", "relative");
+                count = count - 1;
+            });
+        });
+        </script>
+        <![endif]-->
+
+
+
+        <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"
+            style="font-size: 20px;"></div>
+    </body>
+</body>
+
+</html>
